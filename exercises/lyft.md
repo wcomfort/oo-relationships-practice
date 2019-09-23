@@ -15,34 +15,34 @@ Create the necessary methods to connect these classes.
 
 #### Passenger
 
-- #drivers
-  - returns all drivers a passenger has ridden with
-- #rides
-  - returns all rides a passenger has been on
-- .all
-  - returns an array of all passengers
-- #total_distance
+<!-- - #drivers
+  - returns all drivers a passenger has ridden with -->
+<!-- - #rides
+  - returns all rides a passenger has been on -->
+<!-- - .all
+  - returns an array of all passengers -->
+<!-- - #total_distance
   - should calculate the total distance the passenger has travelled with the
-    service
-- .premium_members
-  - should find all passengers who have travelled over 100 miles with the service
+    service -->
+<!-- - .premium_members
+  - should find all passengers who have travelled over 100 miles with the service -->
 
 #### Driver
 
-- #passengers
-  - returns all passengers a driver has had
-- #rides
-  - returns all rides a driver has made
-- .all
-  - returns an array of all drivers
-- .mileage_cap(distance)
-  - takes an argument of a distance (float) and returns all drivers who have exceeded that mileage
+<!-- - #passengers
+  - returns all passengers a driver has had -->
+<!-- - #rides
+  - returns all rides a driver has made -->
+<!-- - .all
+  - returns an array of all drivers -->
+<!-- - .mileage_cap(distance)
+  - takes an argument of a distance (float) and returns all drivers who have exceeded that mileage -->
 
 #### Ride
 
-- #passenger
+<!-- - #passenger
   - returns the passenger object for that ride
 - #driver
-  - returns the driver object for that ride
-- .average_distance
-  - should find the average distance of all rides
+  - returns the driver object for that ride -->
+<!-- - .average_distance
+  - should find the average distance of all rides -->
